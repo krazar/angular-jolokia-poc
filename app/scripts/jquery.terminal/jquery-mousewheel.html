@@ -1,0 +1,1035 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>brandonaaron/jquery-mousewheel</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+    <link rel="logo" type="image/svg" href="https://github-media-downloads.s3.amazonaws.com/github-logo.svg" />
+    <meta property="og:image" content="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png">
+    <meta name="hostname" content="github-fe129-cp1-prd.iad.github.net">
+    <meta name="ruby" content="ruby 1.9.3p194-tcs-github-tcmalloc (0e75de19f8) [x86_64-linux]">
+    <link rel="assets" href="https://github.global.ssl.fastly.net/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035/">
+    <link rel="xhr-socket" href="/_sockets" />
+    
+
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="selected-link" value="repo_source" data-pjax-transient />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="A05C0745:5C1C:D34F67:52714C02" name="octolytics-dimension-request_id" /><meta content="2057078" name="octolytics-actor-id" /><meta content="krazar" name="octolytics-actor-login" /><meta content="86dc0d97c8b134102ab4fe7f13ec66659b35cb99206f05fdf4c12f79263bf04c" name="octolytics-actor-hash" />
+    
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="XO7yLvoEUO9x4hPeFSEPtp2jEuwJSE7KZ6UOPw+4Fok=" name="csrf-token" />
+
+    <link href="https://github.global.ssl.fastly.net/assets/github-c1c8f4d1225e3ae12e7eed7a87e6125ec4f4c50a.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://github.global.ssl.fastly.net/assets/github2-21208703bdca382c3bfef854df7cd2f7d91ae66c.css" media="all" rel="stylesheet" type="text/css" />
+    
+
+    
+
+      <script src="https://github.global.ssl.fastly.net/assets/frameworks-5da1cc8ea24efcf7bd73fdfdaef699713c11f597.js" type="text/javascript"></script>
+      <script src="https://github.global.ssl.fastly.net/assets/github-724bb68ea0901dfef4a6066f417d13907fd7dd28.js" type="text/javascript"></script>
+      
+      <meta http-equiv="x-pjax-version" content="4672a05873912a2071454bcc352ba230">
+
+        <meta property="og:title" content="jquery-mousewheel"/>
+  <meta property="og:type" content="githubog:gitrepository"/>
+  <meta property="og:url" content="https://github.com/brandonaaron/jquery-mousewheel"/>
+  <meta property="og:image" content="https://github.global.ssl.fastly.net/images/gravatars/gravatar-user-420.png"/>
+  <meta property="og:site_name" content="GitHub"/>
+  <meta property="og:description" content="jquery-mousewheel - A jQuery plugin that adds cross-browser mouse wheel support."/>
+
+  <meta name="description" content="jquery-mousewheel - A jQuery plugin that adds cross-browser mouse wheel support." />
+
+  <meta content="13718" name="octolytics-dimension-user_id" /><meta content="brandonaaron" name="octolytics-dimension-user_login" /><meta content="63557" name="octolytics-dimension-repository_id" /><meta content="brandonaaron/jquery-mousewheel" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="63557" name="octolytics-dimension-repository_network_root_id" /><meta content="brandonaaron/jquery-mousewheel" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/brandonaaron/jquery-mousewheel/commits/master.atom" rel="alternate" title="Recent Commits to jquery-mousewheel:master" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="logged_in  env-production macintosh vis-public">
+    <div class="wrapper">
+      
+      
+      
+
+
+      <div class="header header-logged-in true">
+  <div class="container clearfix">
+
+    <a class="header-logo-invertocat" href="https://github.com/">
+  <span class="mega-octicon octicon-mark-github"></span>
+</a>
+
+    
+    <a href="/notifications" class="notification-indicator tooltipped downwards" data-gotokey="n" title="You have unread notifications">
+        <span class="mail-status unread"></span>
+</a>
+
+      <div class="command-bar js-command-bar  in-repository">
+          <form accept-charset="UTF-8" action="/search" class="command-bar-form" id="top_search_form" method="get">
+
+<input type="text" data-hotkey="/ s" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off"
+    
+    data-username="krazar"
+      data-repo="brandonaaron/jquery-mousewheel"
+      data-branch="master"
+      data-sha="eb4671be649564b0f917a23c0412c644c8fe3dde"
+  >
+
+    <input type="hidden" name="nwo" value="brandonaaron/jquery-mousewheel" />
+
+    <div class="select-menu js-menu-container js-select-menu search-context-select-menu">
+      <span class="minibutton select-menu-button js-menu-target">
+        <span class="js-select-button">This repository</span>
+      </span>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container">
+        <div class="select-menu-modal">
+
+          <div class="select-menu-item js-navigation-item js-this-repository-navigation-item selected">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" class="js-search-this-repository" name="search_target" value="repository" checked="checked" />
+            <div class="select-menu-item-text js-select-button-text">This repository</div>
+          </div> <!-- /.select-menu-item -->
+
+          <div class="select-menu-item js-navigation-item js-all-repositories-navigation-item">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" name="search_target" value="global" />
+            <div class="select-menu-item-text js-select-button-text">All repositories</div>
+          </div> <!-- /.select-menu-item -->
+
+        </div>
+      </div>
+    </div>
+
+  <span class="octicon help tooltipped downwards" title="Show command bar help">
+    <span class="octicon octicon-question"></span>
+  </span>
+
+
+  <input type="hidden" name="ref" value="cmdform">
+
+</form>
+        <ul class="top-nav">
+          <li class="explore"><a href="/explore">Explore</a></li>
+            <li><a href="https://gist.github.com">Gist</a></li>
+            <li><a href="/blog">Blog</a></li>
+          <li><a href="https://help.github.com">Help</a></li>
+        </ul>
+      </div>
+
+    
+
+
+  <ul id="user-links">
+    <li>
+      <a href="/krazar" class="name">
+        <img height="20" src="https://0.gravatar.com/avatar/8bd5553deac5e05f50f78ebf48944d0a?d=https%3A%2F%2Fidenticons.github.com%2F68e515e5769c8ad62096441951983f73.png&amp;r=x&amp;s=140" width="20" /> krazar
+      </a>
+    </li>
+
+      <li>
+        <a href="/new" id="new_repo" class="tooltipped downwards" title="Create a new repo" aria-label="Create a new repo">
+          <span class="octicon octicon-repo-create"></span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/settings/profile" id="account_settings"
+          class="tooltipped downwards"
+          aria-label="Account settings "
+          title="Account settings ">
+          <span class="octicon octicon-tools"></span>
+        </a>
+      </li>
+      <li>
+        <a class="tooltipped downwards" href="/logout" data-method="post" id="logout" title="Sign out" aria-label="Sign out">
+          <span class="octicon octicon-log-out"></span>
+        </a>
+      </li>
+
+  </ul>
+
+<div class="js-new-dropdown-contents hidden">
+  
+
+<ul class="dropdown-menu">
+  <li>
+    <a href="/new"><span class="octicon octicon-repo-create"></span> New repository</a>
+  </li>
+  <li>
+    <a href="/organizations/new"><span class="octicon octicon-organization"></span> New organization</a>
+  </li>
+
+
+
+    <li class="section-title">
+      <span title="brandonaaron/jquery-mousewheel">This repository</span>
+    </li>
+      <li>
+        <a href="/brandonaaron/jquery-mousewheel/issues/new"><span class="octicon octicon-issue-opened"></span> New issue</a>
+      </li>
+</ul>
+
+</div>
+
+
+    
+  </div>
+</div>
+
+      
+
+      
+
+
+
+
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+
+<ul class="pagehead-actions">
+
+    <li class="subscription">
+      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="XO7yLvoEUO9x4hPeFSEPtp2jEuwJSE7KZ6UOPw+4Fok=" /></div>  <input id="repository_id" name="repository_id" type="hidden" value="63557" />
+
+    <div class="select-menu js-menu-container js-select-menu">
+      <a class="social-count js-social-count" href="/brandonaaron/jquery-mousewheel/watchers">
+        100
+      </a>
+      <span class="minibutton select-menu-button with-count js-menu-target" role="button" tabindex="0">
+        <span class="js-select-button">
+          <span class="octicon octicon-eye-watch"></span>
+          Watch
+        </span>
+      </span>
+
+      <div class="select-menu-modal-holder">
+        <div class="select-menu-modal subscription-menu-modal js-menu-content">
+          <div class="select-menu-header">
+            <span class="select-menu-title">Notification status</span>
+            <span class="octicon octicon-remove-close js-menu-close"></span>
+          </div> <!-- /.select-menu-header -->
+
+          <div class="select-menu-list js-navigation-container" role="menu">
+
+            <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input checked="checked" id="do_included" name="do" type="radio" value="included" />
+                <h4>Not watching</h4>
+                <span class="description">You only receive notifications for discussions in which you participate or are @mentioned.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-eye-watch"></span>
+                  Watch
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+            <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+              <span class="select-menu-item-icon octicon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input id="do_subscribed" name="do" type="radio" value="subscribed" />
+                <h4>Watching</h4>
+                <span class="description">You receive notifications for all discussions in this repository.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-eye-unwatch"></span>
+                  Unwatch
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+            <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input id="do_ignore" name="do" type="radio" value="ignore" />
+                <h4>Ignoring</h4>
+                <span class="description">You do not receive any notifications for discussions in this repository.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-mute"></span>
+                  Stop ignoring
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+          </div> <!-- /.select-menu-list -->
+
+        </div> <!-- /.select-menu-modal -->
+      </div> <!-- /.select-menu-modal-holder -->
+    </div> <!-- /.select-menu -->
+
+</form>
+    </li>
+
+  <li>
+  
+<div class="js-toggler-container js-social-container starring-container ">
+  <a href="/brandonaaron/jquery-mousewheel/unstar" class="minibutton with-count js-toggler-target star-button starred upwards" title="Unstar this repo" data-remote="true" data-method="post" rel="nofollow">
+    <span class="octicon octicon-star-delete"></span><span class="text">Unstar</span>
+  </a>
+  <a href="/brandonaaron/jquery-mousewheel/star" class="minibutton with-count js-toggler-target star-button unstarred upwards" title="Star this repo" data-remote="true" data-method="post" rel="nofollow">
+    <span class="octicon octicon-star"></span><span class="text">Star</span>
+  </a>
+  <a class="social-count js-social-count" href="/brandonaaron/jquery-mousewheel/stargazers">1,323</a>
+</div>
+
+  </li>
+
+
+        <li>
+          <a href="/brandonaaron/jquery-mousewheel/fork" class="minibutton with-count js-toggler-target fork-button lighter upwards" title="Fork this repo" rel="nofollow" data-method="post">
+            <span class="octicon octicon-git-branch-create"></span><span class="text">Fork</span>
+          </a>
+          <a href="/brandonaaron/jquery-mousewheel/network" class="social-count">450</a>
+        </li>
+
+
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="repo-label"><span>public</span></span>
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author">
+            <a href="/brandonaaron" class="url fn" itemprop="url" rel="author"><span itemprop="title">brandonaaron</span></a>
+          </span>
+          <span class="repohead-name-divider">/</span>
+          <strong><a href="/brandonaaron/jquery-mousewheel" class="js-current-repository js-repo-home-link">jquery-mousewheel</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="Octocat-spinner-32" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+
+      <div class="repository-with-sidebar repo-container with-full-navigation">
+
+        <div class="repository-sidebar">
+            
+
+<div class="sunken-menu vertical-right repo-nav js-repo-nav js-repository-container-pjax js-octicon-loaders">
+  <div class="sunken-menu-contents">
+    <ul class="sunken-menu-group">
+      <li class="tooltipped leftwards" title="Code">
+        <a href="/brandonaaron/jquery-mousewheel" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-gotokey="c" data-pjax="true" data-selected-links="repo_source repo_downloads repo_commits repo_tags repo_branches /brandonaaron/jquery-mousewheel">
+          <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+        <li class="tooltipped leftwards" title="Issues">
+          <a href="/brandonaaron/jquery-mousewheel/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="i" data-selected-links="repo_issues /brandonaaron/jquery-mousewheel/issues">
+            <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+            <span class='counter'>5</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+
+      <li class="tooltipped leftwards" title="Pull Requests"><a href="/brandonaaron/jquery-mousewheel/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="p" data-selected-links="repo_pulls /brandonaaron/jquery-mousewheel/pulls">
+            <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+            <span class='counter'>0</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+
+        <li class="tooltipped leftwards" title="Wiki">
+          <a href="/brandonaaron/jquery-mousewheel/wiki" aria-label="Wiki" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_wiki /brandonaaron/jquery-mousewheel/wiki">
+            <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+    </ul>
+    <div class="sunken-menu-separator"></div>
+    <ul class="sunken-menu-group">
+
+      <li class="tooltipped leftwards" title="Pulse">
+        <a href="/brandonaaron/jquery-mousewheel/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="pulse /brandonaaron/jquery-mousewheel/pulse">
+          <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped leftwards" title="Graphs">
+        <a href="/brandonaaron/jquery-mousewheel/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_graphs repo_contributors /brandonaaron/jquery-mousewheel/graphs">
+          <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped leftwards" title="Network">
+        <a href="/brandonaaron/jquery-mousewheel/network" aria-label="Network" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-selected-links="repo_network /brandonaaron/jquery-mousewheel/network">
+          <span class="octicon octicon-git-branch"></span> <span class="full-word">Network</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+    </ul>
+
+
+  </div>
+</div>
+
+            <div class="only-with-full-nav">
+              
+
+  
+
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><strong>HTTPS</strong> clone URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/brandonaaron/jquery-mousewheel.git" readonly="readonly">
+
+    <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/brandonaaron/jquery-mousewheel.git" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="ssh"
+  data-url="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone">
+  <h3><strong>SSH</strong> clone URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="git@github.com:brandonaaron/jquery-mousewheel.git" readonly="readonly">
+
+    <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="git@github.com:brandonaaron/jquery-mousewheel.git" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><strong>Subversion</strong> checkout URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/brandonaaron/jquery-mousewheel" readonly="readonly">
+
+    <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/brandonaaron/jquery-mousewheel" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+
+<p class="clone-options">You can clone with
+      <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>,
+      <a href="#" class="js-clone-selector" data-protocol="ssh">SSH</a>,
+      or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <span class="octicon help tooltipped upwards" title="Get help on which URL is right for you.">
+    <a href="https://help.github.com/articles/which-remote-url-should-i-use">
+    <span class="octicon octicon-question"></span>
+    </a>
+  </span>
+</p>
+
+  <a href="github-mac://openRepo/https://github.com/brandonaaron/jquery-mousewheel" data-url="github-mac://openRepo/https://github.com/brandonaaron/jquery-mousewheel" class="minibutton sidebar-button js-conduit-rewrite-url">
+    <span class="octicon octicon-device-desktop"></span>
+    Clone in Desktop
+  </a>
+
+
+              <a href="/brandonaaron/jquery-mousewheel/archive/master.zip"
+                 class="minibutton sidebar-button"
+                 title="Download this repository as a zip file"
+                 rel="nofollow">
+                <span class="octicon octicon-cloud-download"></span>
+                Download ZIP
+              </a>
+            </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+
+<span id="js-show-full-navigation"></span>
+
+<div class="repository-meta js-details-container ">
+    <div class="repository-description js-details-show">
+      <p>A jQuery plugin that adds cross-browser mouse wheel support.</p>
+    </div>
+
+
+
+</div>
+
+<div class="capped-box overall-summary ">
+
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/brandonaaron/jquery-mousewheel/commits/master">
+          <span class="num">
+            <span class="octicon octicon-history"></span>
+            69
+          </span>
+          commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/brandonaaron/jquery-mousewheel/branches">
+          <span class="num">
+            <span class="octicon octicon-git-branch"></span>
+            2
+          </span>
+          branches
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/brandonaaron/jquery-mousewheel/releases">
+          <span class="num">
+            <span class="octicon octicon-tag"></span>
+            9
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+
+  <a href="/brandonaaron/jquery-mousewheel/graphs/contributors">
+    <span class="num">
+      <span class="octicon octicon-organization"></span>
+      6
+    </span>
+    contributors
+  </a>
+      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/brandonaaron/jquery-mousewheel/search?l=javascript">
+                <span class="color-block language-color" style="background-color:#f15501;"></span>
+                <span class="lang">JavaScript</span>
+                <span class="percent">100%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+  </div>
+
+</div>
+
+  <a href="#"
+     class="repository-lang-stats-graph js-toggle-lang-stats tooltipped downwards"
+     title="Show language statistics"
+     style="background-color:#f15501">
+  <span class="language-color" style="width:100%; background-color:#f15501;" itemprop="keywords">JavaScript</span>
+  </a>
+
+
+
+
+<div class="file-navigation in-mid-page">
+    <a href="/brandonaaron/jquery-mousewheel/compare" aria-label="Compare, review, create a pull request" class="minibutton compact primary tooltipped downwards" title="Compare &amp; review" data-pjax>
+      <span class="octicon octicon-git-compare"></span>
+    </a>
+
+  
+  
+
+<div class="select-menu js-menu-container js-select-menu" >
+  <span class="minibutton select-menu-button js-menu-target" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-remove-close js-menu-close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/brandonaaron/jquery-mousewheel/tree/gh-pages"
+                 data-name="gh-pages"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="gh-pages">gh-pages</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/brandonaaron/jquery-mousewheel/tree/master"
+                 data-name="master"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/brandonaaron/jquery-mousewheel/tree/3.1.4"
+                 data-name="3.1.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="3.1.4">3.1.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/brandonaaron/jquery-mousewheel/tree/3.1.3"
+                 data-name="3.1.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="3.1.3">3.1.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/brandonaaron/jquery-mousewheel/tree/3.1.2"
+                 data-name="3.1.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="3.1.2">3.1.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/brandonaaron/jquery-mousewheel/tree/3.1.1"
+                 data-name="3.1.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="3.1.1">3.1.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/brandonaaron/jquery-mousewheel/tree/3.1.0"
+                 data-name="3.1.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="3.1.0">3.1.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/brandonaaron/jquery-mousewheel/tree/3.0.6"
+                 data-name="3.0.6"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="3.0.6">3.0.6</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/brandonaaron/jquery-mousewheel/tree/3.0.5"
+                 data-name="3.0.5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="3.0.5">3.0.5</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/brandonaaron/jquery-mousewheel/tree/3.0.4"
+                 data-name="3.0.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="3.0.4">3.0.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/brandonaaron/jquery-mousewheel/tree/3.0.3"
+                 data-name="3.0.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="3.0.3">3.0.3</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+
+  <div class="breadcrumb"><span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/brandonaaron/jquery-mousewheel" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">jquery-mousewheel</span></a></span></span><span class="separator"> / </span><form action="/brandonaaron/jquery-mousewheel/new/master" class="js-new-blob-form tooltipped rightwards new-file-link" method="post" title="Fork this project and create a new file"><span aria-label="Fork this project and create a new file" class="js-new-blob-submit octicon octicon-file-add" data-test-id="create-new-git-file" role="button"></span></form></div>
+</div>
+
+  
+
+<a href="/brandonaaron/jquery-mousewheel/find/master"
+  data-hotkey="t" class="js-show-file-finder" style="display:none" data-pjax>Show File Finder</a>
+<div class="bubble files-bubble">
+  <table class="files" data-pjax>
+    <thead>
+
+
+  <div class="commit commit-tease js-details-container" >
+    <p class="commit-title ">
+        <a href="/brandonaaron/jquery-mousewheel/commit/55eb3d0ccda12fd4d67206e9a40b1d2880978e01" class="message" data-pjax="true" title="bump version to 3.1.4">bump version to 3.1.4</a>
+        
+    </p>
+    <div class="commit-meta">
+      <span class="js-zeroclipboard zeroclipboard-link" data-clipboard-text="55eb3d0ccda12fd4d67206e9a40b1d2880978e01" data-copied-hint="copied!" title="Copy SHA"><span class="octicon octicon-clippy"></span></span>
+      <a href="/brandonaaron/jquery-mousewheel/commit/55eb3d0ccda12fd4d67206e9a40b1d2880978e01" class="sha-block" data-pjax>latest commit <span class="sha">55eb3d0ccd</span></a>
+
+      <div class="authorship">
+        <img class="gravatar" height="20" src="https://2.gravatar.com/avatar/4df117a6ebd831e630e1e1786159bfa5?d=https%3A%2F%2Fidenticons.github.com%2F17463ec465317dc0558d5a5234b7b8ba.png&amp;r=x&amp;s=140" width="20" />
+        <span class="author-name"><a href="/brandonaaron" data-skip-pjax="true" rel="author">brandonaaron</a></span>
+        authored <time class="js-relative-date updated" datetime="2013-10-18T16:53:28-07:00" title="2013-10-18 16:53:28">October 18, 2013</time>
+
+      </div>
+    </div>
+  </div>
+    </thead>
+
+    
+<tbody class=""
+  data-url="/brandonaaron/jquery-mousewheel/file-list/master">
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/brandonaaron/jquery-mousewheel/tree/master/test" class="js-directory-link" id="098f6bcd4621d373cade4e832627b4f6-8fd4a2d1b81fd59d399cc472989efab3ff142946" title="test">test</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/brandonaaron/jquery-mousewheel/commit/75dddb776be76b77f7b9474a293a32ef9f1ee823" class="message" data-pjax="true" title="Fix the position of the logger in the test">Fix the position of the logger in the test</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-10-18T09:00:11-07:00" title="2013-10-18 09:00:11">October 18, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/brandonaaron/jquery-mousewheel/blob/master/.gitignore" class="js-directory-link" id="a084b794bc0759e7a6b77810e01874f2-9fb87cbc99e0dc689d3c477d00ac3bcccb13a19a" title=".gitignore">.gitignore</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/brandonaaron/jquery-mousewheel/commit/479b8310ff62a3b799bf071d2e3c478d55205b2d" class="message" data-pjax="true" title="include support for browserify">include support for browserify</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-03-12T07:21:08-07:00" title="2013-03-12 07:21:08">March 12, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/brandonaaron/jquery-mousewheel/blob/master/.jshintrc" class="js-directory-link" id="4d5aa81bf4f18104bb6ea53a8b5d1f43-8532f9b3b522622bf971836e1cff560c66351edc" title=".jshintrc">.jshintrc</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/brandonaaron/jquery-mousewheel/commit/d3f6b0d677007a9a20b9e79354b28cd5c4a6bf62" class="message" data-pjax="true" title="include require as a global as well as define">include require as a global as well as define</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-10-18T08:36:50-07:00" title="2013-10-18 08:36:50">October 18, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/brandonaaron/jquery-mousewheel/blob/master/ChangeLog.markdown" class="js-directory-link" id="16399c38a1890f200ab8f3006f85c4c1-5c88a1e802f9dc9afa5f3f3186280cfc9f7cc025" title="ChangeLog.markdown">ChangeLog.markdown</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/brandonaaron/jquery-mousewheel/commit/caab062e7dc79d68c1dfd255dbd3d205e1b490b4" class="message" data-pjax="true" title="update the ChangeLog for upcoming new version">update the ChangeLog for upcoming new version</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-10-18T16:52:41-07:00" title="2013-10-18 16:52:41">October 18, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/brandonaaron/jquery-mousewheel/blob/master/Gruntfile.js" class="js-directory-link" id="35b4a816e0441e6a375cd925af50752c-ec9e4e5fade65ae5675de1ba06e7bfec614a88c1" title="Gruntfile.js">Gruntfile.js</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/brandonaaron/jquery-mousewheel/commit/ac59cbd3af1b04d29d5952319a14668ef6d3ae99" class="message" data-pjax="true" title="Update Gruntfile.js.
+
+* remove unneeded variable
+* move jshint first
+* update uglify-js options">Update Gruntfile.js.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-10-18T08:49:07-07:00" title="2013-10-18 08:49:07">October 18, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/brandonaaron/jquery-mousewheel/blob/master/LICENSE.txt" class="js-directory-link" id="61e0bdf7e1b43c5c93d9488b22e04170-d64b7076bdf5efb06496eb5fbc7acdeeaff8d394" title="LICENSE.txt">LICENSE.txt</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/brandonaaron/jquery-mousewheel/commit/25fb173d43d1bb4e77f9e5478d066069fc081e12" class="message" data-pjax="true" title="LICENSE.txt: bump copyright year">LICENSE.txt: bump copyright year</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-02-24T03:55:03-08:00" title="2013-02-24 03:55:03">February 24, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/brandonaaron/jquery-mousewheel/blob/master/README.markdown" class="js-directory-link" id="0a369498a5a8db3ac8fa606b544c9810-fba5680fefb3c479c3ad7b41eac9ccf02a36cf7d" title="README.markdown">README.markdown</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/brandonaaron/jquery-mousewheel/commit/2d87181a08c9b06ecbdc3d05804b919f7c2b629b" class="message" data-pjax="true" title="update readme">update readme</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-10-18T16:52:17-07:00" title="2013-10-18 16:52:17">October 18, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/brandonaaron/jquery-mousewheel/blob/master/bower.json" class="js-directory-link" id="0a08a7565aba4405282251491979bb6b-9ecf07e71653be2bf690fe6d15bf8046726c5dc4" title="bower.json">bower.json</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/brandonaaron/jquery-mousewheel/commit/55eb3d0ccda12fd4d67206e9a40b1d2880978e01" class="message" data-pjax="true" title="bump version to 3.1.4">bump version to 3.1.4</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-10-18T16:53:28-07:00" title="2013-10-18 16:53:28">October 18, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/brandonaaron/jquery-mousewheel/blob/master/jquery.mousewheel.js" class="js-directory-link" id="4bc53473ac2e0f4b8ca2634747be6400-e1d0e50b3a57b866e4071b89d45a9755d9860bf2" title="jquery.mousewheel.js">jquery.mousewheel.js</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/brandonaaron/jquery-mousewheel/commit/55eb3d0ccda12fd4d67206e9a40b1d2880978e01" class="message" data-pjax="true" title="bump version to 3.1.4">bump version to 3.1.4</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-10-18T16:53:28-07:00" title="2013-10-18 16:53:28">October 18, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/brandonaaron/jquery-mousewheel/blob/master/mousewheel.jquery.json" class="js-directory-link" id="6498d8875dbae5f05be1d766b5700756-e5a68ed143190f68057b2087dd6f5bd9d890a22c" title="mousewheel.jquery.json">mousewheel.jquery.json</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/brandonaaron/jquery-mousewheel/commit/55eb3d0ccda12fd4d67206e9a40b1d2880978e01" class="message" data-pjax="true" title="bump version to 3.1.4">bump version to 3.1.4</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-10-18T16:53:28-07:00" title="2013-10-18 16:53:28">October 18, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/brandonaaron/jquery-mousewheel/blob/master/package.json" class="js-directory-link" id="b9cfc7f2cdf78a7f4b91a753d10865a2-49e99cf03e2f2e1a38cf500b04a93016415e25be" title="package.json">package.json</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/brandonaaron/jquery-mousewheel/commit/55eb3d0ccda12fd4d67206e9a40b1d2880978e01" class="message" data-pjax="true" title="bump version to 3.1.4">bump version to 3.1.4</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-10-18T16:53:28-07:00" title="2013-10-18 16:53:28">October 18, 2013</time></span></td>
+    </tr>
+</tbody>
+
+  </table>
+</div>
+
+  <div id="readme" class="clearfix announce instapaper_body markdown">
+    <span class="name">
+      <span class="octicon octicon-book"></span>
+      README.markdown
+    </span>
+
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1>
+<a name="jquery-mouse-wheel-plugin" class="anchor" href="#jquery-mouse-wheel-plugin"><span class="octicon octicon-link"></span></a>jQuery Mouse Wheel Plugin</h1>
+
+<p>A <a href="http://jquery.com/">jQuery</a> plugin that adds cross-browser mouse wheel support.</p>
+
+<p>In order to use the plugin, simply bind the <code>mousewheel</code> event to an element.
+It also provides two helper methods called <code>mousewheel</code> and <code>unmousewheel</code>
+that act just like other event helper methods in jQuery. The event callback
+receives three extra arguments which are the normalized "deltas" of the mouse wheel.</p>
+
+<p>Here is an example of using both the bind and helper method syntax:</p>
+
+<div class="highlight highlight-js"><pre><span class="c1">// using bind</span>
+<span class="nx">$</span><span class="p">(</span><span class="s1">'#my_elem'</span><span class="p">).</span><span class="nx">bind</span><span class="p">(</span><span class="s1">'mousewheel'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">,</span> <span class="nx">delta</span><span class="p">,</span> <span class="nx">deltaX</span><span class="p">,</span> <span class="nx">deltaY</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">delta</span><span class="p">,</span> <span class="nx">deltaX</span><span class="p">,</span> <span class="nx">deltaY</span><span class="p">);</span>
+<span class="p">});</span>
+
+<span class="c1">// using the event helper</span>
+<span class="nx">$</span><span class="p">(</span><span class="s1">'#my_elem'</span><span class="p">).</span><span class="nx">mousewheel</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">,</span> <span class="nx">delta</span><span class="p">,</span> <span class="nx">deltaX</span><span class="p">,</span> <span class="nx">deltaY</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">delta</span><span class="p">,</span> <span class="nx">deltaX</span><span class="p">,</span> <span class="nx">deltaY</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></div>
+
+<h2>
+<a name="see-it-in-action" class="anchor" href="#see-it-in-action"><span class="octicon octicon-link"></span></a>See it in action</h2>
+
+<p><a href="http://brandonaaron.github.io/jquery-mousewheel/test">See the tests on Github</a>.</p>
+
+<h2>
+<a name="using-with-browserify" class="anchor" href="#using-with-browserify"><span class="octicon octicon-link"></span></a>Using with <a href="http://browserify.org">Browserify</a>
+</h2>
+
+<p>Support for browserify is baked in.</p>
+
+<div class="highlight highlight-bash"><pre>npm install jquery-mousewheel
+npm install jquery-browserify
+</pre></div>
+
+<p>In your server-side node.js code:</p>
+
+<div class="highlight highlight-js"><pre><span class="kd">var</span> <span class="nx">express</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'express'</span><span class="p">);</span>
+<span class="kd">var</span> <span class="nx">app</span> <span class="o">=</span> <span class="nx">express</span><span class="p">.</span><span class="nx">createServer</span><span class="p">();</span>
+
+<span class="nx">app</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">require</span><span class="p">(</span><span class="s1">'browserify'</span><span class="p">)({</span>
+    <span class="nx">require</span> <span class="o">:</span> <span class="p">[</span> <span class="s1">'jquery-browserify'</span><span class="p">,</span> <span class="s1">'jquery-mousewheel'</span> <span class="p">]</span>
+<span class="p">}));</span>
+</pre></div>
+
+<p>In your browser-side javascript:</p>
+
+<div class="highlight highlight-js"><pre><span class="kd">var</span> <span class="nx">$</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'jquery-browserify'</span><span class="p">);</span>
+<span class="nx">require</span><span class="p">(</span><span class="s1">'jquery-mousewheel'</span><span class="p">)(</span><span class="nx">$</span><span class="p">);</span>
+</pre></div>
+
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>This plugin is licensed under the <a href="/brandonaaron/jquery-mousewheel/blob/master/LICENSE.txt">MIT License</a>.</p>
+
+<p>Copyright (c) 2013 <a href="http://brandon.aaron.sh">Brandon Aaron</a></p></article>
+  </div>
+
+
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="http://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/">
+      <span class="mega-octicon octicon-mark-github"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2013 <span title="0.07201s from github-fe129-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+          <div class="suggester-container">
+              <div class="suggester fullscreen-suggester js-navigation-container" id="fullscreen_suggester"
+                 data-url="/brandonaaron/jquery-mousewheel/suggestions/commit">
+              </div>
+          </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped leftwards" title="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped leftwards"
+      title="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-remove-close close ajax-error-dismiss"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+  </body>
+</html>
+
