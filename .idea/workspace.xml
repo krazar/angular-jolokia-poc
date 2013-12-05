@@ -23,59 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
+      <file leaf-file-name="Readme.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="44" selection-start="2284" selection-end="2284" vertical-scroll-proportion="-8.458333" vertical-offset="547" max-vertical-offset="1305">
-              <folding>
-                <marker date="1383157918000" expanded="true" signature="1409:1831" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="32" selection-start="294" selection-end="294" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cli.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/cli.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="80" selection-start="114" selection-end="114" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="135">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="terminalDirective.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/scripts/directives/terminalDirective.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="53" selection-start="2279" selection-end="2279" vertical-scroll-proportion="0.7419355" vertical-offset="525" max-vertical-offset="1215">
-              <folding>
-                <element signature="e#0#48#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="17" selection-start="1806" selection-end="1806" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="6135">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="10" selection-start="53" selection-end="53" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="225">
+            <state line="6" column="45" selection-start="123" selection-end="123" vertical-scroll-proportion="0.18255578" vertical-offset="0" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
@@ -91,7 +42,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
         <option value="$PROJECT_DIR$/app/views/simple.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/simpleCtrl.js" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -101,19 +51,20 @@
         <option value="$PROJECT_DIR$/app/scripts/services/jolokiaService.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/highChartsCtrl.js" />
         <option value="$PROJECT_DIR$/app/views/main.html" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/cliCtrl.js" />
         <option value="$PROJECT_DIR$/app/views/cli.html" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/scripts/directives/terminalDirective.js" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/cliCtrl.js" />
+        <option value="$PROJECT_DIR$/Readme.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1427" />
-    <option name="height" value="832" />
+    <option name="width" value="1440" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -141,6 +92,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -156,6 +108,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="claudia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="claudia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="claudia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jolokia" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -361,7 +327,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -373,11 +338,22 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jolokia" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/styles/jquery.terminal" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.debug">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -386,14 +362,6 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -426,18 +394,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1427" height="832" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947233" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19729345" sideWeight="0.6707483" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25194073" sideWeight="0.6705277" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -469,31 +437,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="345">
-          <folding>
-            <marker date="1383158040000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="18" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="18" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="465">
-          <folding>
-            <marker date="1383158040000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.sass-cache/0aded226c2eeb624eb7e22a39cf8b71c9d4143cf/main.scssc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="58" selection-start="3002" selection-end="3002" vertical-scroll-proportion="0.41791046" vertical-offset="590" max-vertical-offset="1260" />
@@ -504,18 +447,6 @@
         <state line="29" column="0" selection-start="906" selection-end="906" vertical-scroll-proportion="0.65909094" vertical-offset="0" max-vertical-offset="660" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="0.19354838" vertical-offset="0" max-vertical-offset="465" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/jolokiaService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="3" selection-start="180" selection-end="180" vertical-scroll-proportion="0.22580644" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="http://localhost:9000/scripts/directives/terminalDirective.js">
       <provider selected="true" editor-type-id="httpFileEditor">
         <state />
@@ -523,65 +454,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="10" selection-start="53" selection-end="53" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
+        <state line="2" column="10" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="225" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+    <entry file="file://$PROJECT_DIR$/app/scripts/jolokia/jolokia-simple.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="17" selection-start="1806" selection-end="1806" vertical-scroll-proportion="0.0" vertical-offset="784" max-vertical-offset="6135">
-          <folding />
-        </state>
+        <state line="266" column="37" selection-start="10484" selection-end="10484" vertical-scroll-proportion="0.3522388" vertical-offset="3754" max-vertical-offset="4455" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+    <entry file="file://$PROJECT_DIR$/app/scripts/jolokia/jolokia.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="47" selection-start="62" selection-end="62" vertical-scroll-proportion="0.032258064" vertical-offset="15" max-vertical-offset="495">
-          <folding>
-            <marker date="1383158040000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
+        <state line="621" column="74" selection-start="27950" selection-end="27952" vertical-scroll-proportion="0.19253731" vertical-offset="9186" max-vertical-offset="11385" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/cliCtrl.js">
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/jolokiaService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="5" selection-start="293" selection-end="293" vertical-scroll-proportion="0.22580644" vertical-offset="0" max-vertical-offset="465">
-          <folding>
-            <element signature="e#0#48#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="294" selection-end="294" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="44" selection-start="2284" selection-end="2284" vertical-scroll-proportion="-8.458333" vertical-offset="547" max-vertical-offset="1305">
-          <folding>
-            <marker date="1383157918000" expanded="true" signature="1409:1831" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cli.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="80" selection-start="114" selection-end="114" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="135">
-          <folding />
-        </state>
+        <state line="7" column="3" selection-start="180" selection-end="180" vertical-scroll-proportion="0.15671642" vertical-offset="0" max-vertical-offset="670" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/directives/terminalDirective.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="53" selection-start="2279" selection-end="2279" vertical-scroll-proportion="0.7419355" vertical-offset="525" max-vertical-offset="1215">
-          <folding>
-            <element signature="e#0#48#0" expanded="false" />
-          </folding>
+        <state line="7" column="44" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cli.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="80" selection-start="114" selection-end="114" vertical-scroll-proportion="0.06965944" vertical-offset="0" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="32" selection-start="294" selection-end="294" vertical-scroll-proportion="0.25541794" vertical-offset="0" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="44" selection-start="2284" selection-end="2284" vertical-scroll-proportion="0.3142415" vertical-offset="547" max-vertical-offset="1305" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/cliCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="0.24626866" vertical-offset="0" max-vertical-offset="670" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="0.13432837" vertical-offset="0" max-vertical-offset="670" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="17" selection-start="1806" selection-end="1806" vertical-scroll-proportion="0.0" vertical-offset="784" max-vertical-offset="6135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="26" selection-start="182" selection-end="182" vertical-scroll-proportion="0.14018692" vertical-offset="0" max-vertical-offset="749" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="45" selection-start="123" selection-end="123" vertical-scroll-proportion="0.18255578" vertical-offset="0" max-vertical-offset="240">
+          <folding />
         </state>
       </provider>
     </entry>
